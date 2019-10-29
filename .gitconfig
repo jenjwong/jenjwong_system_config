@@ -1,0 +1,13 @@
+[user]
+	name = Jen Wong
+	email = jenjwong@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/jenjwong/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /private/var/folders/_q/xk4mzpvx4fsfxpmdb8yl8zqc0000gn/T/AppTranslocation/594C6E6F-6786-47F5-8C01-88E57C0E3BCF/d/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
